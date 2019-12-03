@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="src/java"/>
+	<classpathentry kind="lib" path="build/web/WEB-INF/lib/commons-beanutils-1.8.0.jar"/>
+	<classpathentry kind="lib" path="build/web/WEB-INF/lib/commons-collections-3.2.1-1.0.0.jar"/>
+	<classpathentry kind="lib" path="build/web/WEB-INF/lib/commons-collections-3.2.2.jar"/>
+	<classpathentry kind="lib" path="build/web/WEB-INF/lib/commons-lang-2.5.jar"/>
+	<classpathentry kind="lib" path="build/web/WEB-INF/lib/commons-logging-1.1.1-api.jar"/>
+	<classpathentry kind="lib" path="build/web/WEB-INF/lib/ezmorph-1.0.6.jar"/>
+	<classpathentry kind="lib" path="build/web/WEB-INF/lib/json-lib-2.4-jdk15.jar"/>
+	<classpathentry kind="lib" path="build/web/WEB-INF/lib/postgresql-9.4.1209.jar"/>
+	<classpathentry kind="lib" path="D:/Servers/Tomcat/Tomcat 8.5/lib/servlet-api.jar"/>
+	<classpathentry kind="output" path="build/web/WEB-INF/classes"/>
+</classpath>

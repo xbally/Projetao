@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:layout_width="320dp"
+        android:layout_height="520dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true">
+
+        <TableRow>
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="308dp"
+                android:layout_height="150dp" />
+        </TableRow>
+
+        <TableRow>
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="150dp"
+                android:layout_height="match_parent" />
+        </TableRow>
+        <TableRow>
+
+            <EditText
+                android:id="@+id/senha"
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:inputType="textPassword" />
+        </TableRow>
+        <TableRow>
+
+            <Button
+                android:id="@+id/bLogin"
+                android:layout_width="30dp"
+                android:layout_height="50dp"
+                android:onClick="onClick"
+                android:text="LOGIN" />
+        </TableRow>
+        <TableRow>
+
+            <Button
+                android:id="@+id/registrar"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:onClick="Registrar"
+                android:text="Registrar" />
+        </TableRow>
+    </TableLayout>
+
+</RelativeLayout>

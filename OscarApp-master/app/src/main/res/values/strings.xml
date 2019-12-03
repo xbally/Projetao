@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">AppOscar</string>
+    <string name="title_activity_list_item">list_item</string>
+    <string name="title_activity_list_filme">listFilme</string>
+    <string name="title_activity_list_itens">list_itens</string>
+
+    <!-- Gustavo config
+    <string name="server_path">http://localhost:8080/ServidorAppAndroid/</string> -->
+    <!-- Gabriel configteste -->
+    <string name="server_path">http://192.168.15.5:8083/OscarAppServer/</string>
+
+</resources>
